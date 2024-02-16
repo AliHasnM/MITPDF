@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/index.css">
+    <title>MITPDF - Signup</title>
+</head>
+
+<body>
+    <!-- signup full box  -->
+    <div class="container flex flex-col items-center m-auto px-10 py-28">
+        <!-- logo -->
+        <div class="logo flex flex-col items-center"><img class="cursor-pointer w-40" src="assets/mitpdf.png"
+                alt=""><span class="font-bold text-xl my-3">Create new Account</span></div>
+        <!-- buttons -->
+        <div class="btn space-x-3 my-4 flex">
+            <button class="bg-[#223d82] text-white flex items-center px-2 py-1 rounded hover:bg-[#304f9b]"><img
+                    class="w-5 rounded-full mx-1" src="assets/fb2.jpg" alt="">Facebook</button><button
+                class="border border-black bg-[#ecede8] text-black px-2 py-1 rounded flex items-center hover:bg-[#e4ead3]"><img
+                    class="w-5 rounded-full mx-1" src="assets/google.jpg" alt="">Google</button>
+        </div>
+        <!-- form  -->
+        <div class="form flex flex-col w-80">
+            <input class="border border-black my-1 px-4 py-1 rounded outline-blue-500" type="text" placeholder="Name">
+            <input class="border border-black my-1 px-4 py-1 rounded outline-blue-500" type="email" placeholder="Email">
+            <input class="border border-black my-1 px-4 py-1 rounded outline-blue-500" type="password"
+                placeholder="Password">
+        </div>
+        <!-- button  -->
+        <div class="my-3 border border-red-600 bg-red-600 text-white px-2 py-1 rounded cursor-pointer hover:bg-red-700">
+            <button><a href="/login.html">Signup</a></button>
+        </div>
+        <!-- text -->
+        <div class="text-sm space-x-1"><span>Already member?</span><span
+                class="underline text-red-600 font-medium hover:font-bold cursor-pointer "><a href="/login.html">Log
+                    in</a></span>
+        </div>
+        <div class="terms text-xs text-center my-2 space-x-1"><span>By creating an account, yor agree to
+                MITPDF</span><span class="text-red-600 hover:font-bold cursor-pointer">Terms of
+                Services</span><span>and</span><span class="text-red-600 hover:font-bold cursor-pointer">Privacy
+                Policy</span></div>
+    </div>
+</body>
+
+</html>

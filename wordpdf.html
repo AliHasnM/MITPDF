@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/index.css">
+    <title>MITPDF - wordpdf</title>
+</head>
+
+<body>
+    <!-- navbar -->
+    <div class="nav flex justify-between items-center bg-white shadow-xl py-2 md:px-4 lg:px-8">
+        <div class="hamburger inline-block p-4 cursor-pointer md:hidden">
+            <div class="line h-0.5 w-6 my-1 bg-black"></div>
+            <div class="line h-0.5 w-6 my-1 bg-black"></div>
+            <div class="line h-0.5 w-6 my-1 bg-black"></div>
+        </div>
+        <div class="logo w-28 cursor-pointer"><a href="/wordpdf.html"><img src="assets/mitpdf.png" alt=""></a></div>
+        <div>
+            <ul
+                class="py-1 absolute inset-0 w-fit -translate-x-96 md:w-auto md:static md:flex md:mx-4 md:space-x-3 md:translate-x-0 md:items-center cursor-pointer lg:space-x-8">
+                <li class="mx-1 hover:font-medium"><a href="/index.html">PDF to Audio</a></li>
+                <li class="mx-1 hover:font-medium"><a href="/wordpdf.html">PDF to Text</a></li>
+                <li class="mx-1 hover:font-medium">About</li>
+                <li class="mx-1 hover:font-medium">Services</li>
+                <li class="mx-1 hover:font-medium">Contact</li>
+            </ul>
+        </div>
+        <div class="mx-2"><button class="mx-2 bg-white rounded px-2 py-1 font-medium hover:bg-[#ecf6c7]"><a
+                    href="/login.html">Login</a></button><button
+                class="bg-red-600 rounded px-2 py-1 text-white font-medium hover:bg-red-700"><a href="/signup.html">Sign
+                    up</a></button>
+        </div>
+    </div>
+    <!-- Home Word-->
+    <div class="container flex flex-col items-center text-center mt-24 mx-2 px-2">
+        <div class="flex flex-col my-5">
+            <p class="text-4xl font-bold">PDF to Word Converter</p>
+            <span class="text-xl my-3">Convert your PDF to Word documents with incredible accuracy.</span>
+            <div class="space-x-1"><span>powered by</span><span
+                    class="text-red-600 hover:font-bold cursor-pointer">MITPDF</span></div>
+        </div>
+        <div class="flex flex-col my-2"><button
+                class="bg-red-600 rounded text-white px-12 py-6 hover:font-medium">Select PDF
+                file</button><span class="text-xs my-2">or
+                drop
+                PDF
+                here</span>
+        </div>
+    </div>
+    <div class="footer bg-black text-white text-center mt-32 px-4 py-2">
+        <span>This website is reversed by Talal and Shehroz || FYP UAF Burewala
+        </span>
+    </div>
+</body>
+
+</html>
